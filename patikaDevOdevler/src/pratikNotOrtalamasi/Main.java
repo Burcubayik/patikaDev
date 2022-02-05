@@ -5,28 +5,28 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		int maths, physics, chemistry, turkish, history,music;
+		double maths, physics, chemistry, turkish, history,music;
 		Scanner input=new Scanner(System.in);
 		
 		System.out.print("Matematik notunuzu giriniz: ");
-		maths=input.nextInt();
+		maths=input.nextDouble();
 		
 		System.out.print("Fizik notunuzu giriniz: ");
-		physics=input.nextInt();
+		physics=input.nextDouble();
 		
 		System.out.print("Kimya notunuzu giriniz: ");
-		chemistry=input.nextInt();
+		chemistry=input.nextDouble();
 		
 		System.out.print("Türkçe notunuzu giriniz: ");
-		turkish=input.nextInt();
+		turkish=input.nextDouble();
 		
 		System.out.print("Tarih notunuzu giriniz: ");
-		history=input.nextInt();
+		history=input.nextDouble();
 		
 		System.out.print("Müzik notunuzu giriniz: ");
-		music=input.nextInt();
+		music=input.nextDouble();
 		
-		int sum=(maths+physics+chemistry+turkish+history+music);
+		double sum=(maths+physics+chemistry+turkish+history+music);
 		double result= sum/6;
 		
 		System.out.println("Ortalamanýz: "+result);
